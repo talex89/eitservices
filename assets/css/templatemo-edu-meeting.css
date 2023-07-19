@@ -155,6 +155,26 @@ body {
   }
 }
 
+
+.btn-primary {
+  font-size: 13px;
+  color: #fff;
+  background-color: #100f39;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: none;
+  outline: none;
+}
+
+.btn-primary :hover {
+  opacity: 0.9;
+}
+
+
 .main-button-red a {
   font-size: 13px;
   color: #fff;
@@ -944,6 +964,17 @@ section.upcoming-meetings .categories ul li a {
 section.upcoming-meetings .categories ul li a:hover {
   color: #f5a425;
 }
+
+section.upcoming-meetings .categories .btn-primary {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+}
+
+section.upcoming-meetings .categories .btn-primary {
+  width: 100%;
+  text-align: center;
+}
+
 
 section.upcoming-meetings .categories .main-button-red {
   border-top: 1px solid #eee;
