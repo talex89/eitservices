@@ -1,0 +1,436 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+img {
+    
+    height: auto;
+    
+}
+
+ :focus {
+    outline: 0;
+}
+
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.padding_0 {
+    padding: 0px;
+}
+
+
+.padding_right_0 {
+    padding-right: 0px;
+}
+@media (min-width: 992px)
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+@media (min-width: 576px)
+.col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.map_image {
+    padding-right: 10px;
+    width: 28px;
+}
+
+.call_text {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    width: 10%;
+}
+
+
+.services_section {
+    width: 100%;
+    float: left;
+}
+
+.services_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #242424;
+    text-align: center;
+    margin: 0px;
+}
+
+.services_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.box_main {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-left: 6px solid #e4bf14;
+    padding: 30px;
+    box-shadow: 0px 3px 40px 1px #f7f7f7;
+}
+
+.box_main:hover {
+    border-left: 6px solid #10a2d0;
+}
+
+.repair_text {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #111111;
+    font-weight: bold;
+}
+
+.padding_left_10 {
+    padding-left: 20px;
+}
+
+.long_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin: 0px;
+    color: #111111;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.read_bt {
+    width: 170px;
+    float: left;
+    padding-left: 73px;
+    margin-top: 30px;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #e5c014;
+    border-bottom: 1px solid #e5c014;
+}
+
+.read_bt a:hover {
+    color: #10a2d0;
+    border-bottom: 1px solid #10a2d0;
+}
+
+.box_main:hover .read_bt a {
+    color: #10a2d0;
+    border-bottom: 1px solid #10a2d0;
+}
+
+.read_bt.active a {
+    color: #10a2d0;
+    border-bottom: 1px solid #10a2d0;
+}
+
+.box_main.active {
+    border-left: 6px solid #10a2d0;
+}
+
+.about_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 0px;
+}
+
+.about_section_2 {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 50px;
+    position: relative;
+    padding: 0px 30px;
+}
+
+.about_section_2:after {
+    content: '';
+    position: absolute;
+    border: 9px solid #e0e0e0;
+    padding: 180px;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: initial;
+    top: 20px;
+    z-index: 0;
+}
+
+
+.dealing_taital {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1f1f1f;
+    padding-top: 90px;
+}
+
+
+
+.read_more_bt {
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.read_more_bt a {
+    width: 57%;
+    float: left;
+    font-size: 18px;
+    color: #10a2d0;
+    border-bottom: 1px solid #10a2d0;
+}
+
+.read_more_bt a:hover {
+    color: #e5c014;
+    border-bottom: 1px solid #e5c014;
+}
+
+.staff_section {
+    width: 100%;
+    float: left;
+    background-color: #100f39;
+    margin-top: 100px;
+    
+}
+
+.staff_section2 {
+    width: 100%;
+    float: left;
+    background-color: #185573;
+    margin-top: 100px; 
+}
+
+.padding_right_0 {
+    padding-right: 0px;
+}
+
+.staff_section_main {
+    width: 100%;
+    float: left;
+    padding: 90px 0px 90px 60px;
+}
+
+.everything_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+.profesinal_main {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+}
+
+.left_main {
+    width: 16%;
+    float: left;
+}
+
+.right_main {
+    width: 80%;
+    float: left;
+}
+
+.professional_text {
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 620;
+}
+
+.many_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.readmore_bt {
+    width: 170px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+
+.readmore_bt a {
+    width: 57%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.readmore_bt a:hover {
+    color: #111111;
+    border-bottom: 1px solid #111111;
+}
+
+.image_1 {
+    width: 100%;
+    float: left;
+    background-image: url(../assets/images/img/counselling.jpg);
+    height: 725px;
+    background-size: cover;
+}
+
+.image_2 {
+    width: 100%;
+    float: left;
+    background-image: url(../assets/images/img/service-admission.jpg);
+    height: 725px;
+    background-size: cover;
+}
+
+.image_3 {
+    width: 100%;
+    float: left;
+    background-image: url(../assets/images/img/service-visa.jpg);
+    height: 725px;
+    background-size: cover;
+}
+
+.quite_icon {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.serach_icon {
+    top: -20px;
+    position: relative;
+}
+
+
+.margin_top_90 {
+    margin-top: 90px;
+}
+
+.margin_90 {
+    margin: 90px 0px;
+}
+
+#main_slider a.carousel-control-prev,
+#main_slider a.carousel-control-next {
+   display: none;
+}
