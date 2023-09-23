@@ -1201,7 +1201,7 @@ section.apply-now .item p {
 }
 @media screen and (min-width: 768px) {
   .accordion-head {
-    padding: 1rem;
+    padding: 0rem;
     font-size: 1.2rem;
   }
 }
@@ -1224,7 +1224,7 @@ section.apply-now .item p {
 }
 .accordion-body > .content {
   padding: 20px;
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 
@@ -1779,6 +1779,221 @@ section.heading-page h2 {
   letter-spacing: 1px;
 }
 
+
+/*
+----------------
+Heading page 1
+----------------
+*/
+
+section.heading-page1 {
+  background-image: url(../images/heading-studyabroad.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page1 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page1 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+/*
+---------------------
+Heading page 2
+---------------------
+*/
+
+section.heading-page2 {
+  background-image: url(../images/heading-apply.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page2 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page2 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+/*
+-------------------------
+Heading page 3
+-------------------------
+*/
+
+section.heading-page3 {
+  background-image: url(../images/heading-counselling.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page3 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page3 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+/*
+----------------------------
+Heading page 4
+----------------------------
+*/
+
+section.heading-page4 {
+  background-image: url(../images/heading-visa.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page4 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page4 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+/*-----------------------
+Heading page 5
+*/
+
+section.heading-page5 {
+  background-image: url(../images/heading-aboutus.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page5 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page5 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/*
+--------------------------
+Heading page 6
+--------------------------
+*/
+
+section.heading-page6 {
+  background-image: url(../images/heading-contact.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+section.heading-page6 h6 {
+  margin-top: 0px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+section.heading-page6 h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+
 .bg-dak {
   --bs-bg-opacity: 1;
   background-color: #100f39;
@@ -1996,10 +2211,6 @@ section.meetings-page .pagination ul li a:hover {
   color: #100f39;
   font-weight: 700;
   padding-bottom: 15px;
-  border-bottom: solid;
-  border-width: 40px;
-  border-radius: 22px;
-  border-color: #a12c2f;
   margin-bottom: 15px;
 }
 
